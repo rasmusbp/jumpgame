@@ -1,0 +1,54 @@
+{
+    "name": "Grunt-Frontend-Workflow",
+    "version": "1.0.6",
+    "description": "Structured, modular and test-driven front-end development and build workflow with Grunt, including common tasks such as compiling modular html patterns, compiling AMD based modules using RequireJS, watching/compiling Sass/Compass modules into CSS, watching/linting CSS/JS code, optimizing images, generating icons, generating dynamic build headers and YUIdoc documentation, and running unit tests.",
+    "main": "Gruntfile.js",
+    "author": {
+        "name": "Aki Karkkainen",
+        "url": "http://www.akikoo.org/"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/akikoo/grunt-frontend-workflow.git"
+    },
+    "readmeFilename": "README.md",
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "~0.5.4",
+        "grunt-contrib-requirejs": "~0.4.1",
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-contrib-yuidoc": "~0.4.0",
+        "grunt-contrib-csslint": "~0.1.2",
+        "grunt-contrib-compass": "~0.2.0",
+        "grunt-contrib-livereload": "~0.1.2",
+        "grunt-contrib-connect": "~0.3.0",
+        "grunt-include-replace": "~0.4.0",
+        "grunt-grunticon": "~0.3.3",
+        "grunt-karma": "~0.4.4",
+        "karma": "~0.8.5",
+        "grunt-contrib-watch": "~0.4.4",
+        "grunt-contrib-imagemin": "~0.1.4"
+    },
+    "keywords": [
+        "grunt",
+        "gruntjs",
+        "workflow",
+        "boilerplate",
+        "replace",
+        "sass",
+        "compass",
+        "grunticon",
+        "csslint",
+        "jshint",
+        "connect",
+        "karma",
+        "watch",
+        "livereload",
+        "requirejs",
+        "yuidoc",
+        "imagemin",
+        "concat"
+    ]
+}
